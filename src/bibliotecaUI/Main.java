@@ -20,10 +20,10 @@ public class Main extends Application{
 		
 		Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
 		
-		Scene scene1 = new Scene(root);
+		Scene scene = new Scene(root);
 		
 		primaryStage.setTitle("Biblioteca");
-		primaryStage.setScene(scene1);
+		primaryStage.setScene(scene);
 		primaryStage.show();
 
 	}
