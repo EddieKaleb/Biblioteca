@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bibliotecaUI.AlertaErroPersistenciaController">
+   <children>
+      <Label layoutX="74.0" layoutY="30.0" text="ID inválido" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnOk" layoutX="527.0" layoutY="58.0" mnemonicParsing="false" onAction="#clickBtnOk" text="Ok" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="70.0" />
+   </children>
+</AnchorPane>
