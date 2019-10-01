@@ -14,21 +14,29 @@ import javafx.beans.property.StringProperty;
 @Entity
 @Table(name="VOLUME")
 public class Volume {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+   	private Integer id;
+	
 	@Column
 	private String titulo;
+	
 	@Column
 	private String descricao;
+	
 	@Column
 	private String autores;
+	
 	@Column
 	private String volume;
+	
 	@Column
 	private String paginas;
+	
 	@Column
 	private String ano;
+	
 	@Column
 	private String editora;
 	
@@ -151,8 +159,5 @@ public class Volume {
 			return false;
 		return true;
 	}
-	
-	
-	
-	
+
 }
